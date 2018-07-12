@@ -1,3 +1,7 @@
 .btn-toolbar{
     display: block;
 }
+#download{
+    display: block;
+    margin: 0 auto;
+}
