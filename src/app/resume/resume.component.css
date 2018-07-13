@@ -1,9 +1,7 @@
-.container{
-    
-    height: 100%;
-    min-height: 100%;
-    min-height: 100vh;
+.d-flex{
     
     
+    margin: 0;
+    padding: 0;
 }
 
