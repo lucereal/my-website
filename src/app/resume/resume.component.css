@@ -5,11 +5,18 @@
 
 #columnpanel{
     height:50%;
-    
+
+
 }
 #aboutpanel{
     height:80%;
 
+}
+
+#content{
+    border-style: double;
+    border-width: 20px;
+    border-color: black;
 }
 
 #image1{
@@ -37,6 +44,7 @@
 }
 #secondpanel{
     height:100%;
+
 }
 #resumepanel{
     height: 90%;
