@@ -1,8 +1,14 @@
 .row-fluid{
     height: 100%;
+    
 }
 
 #columnpanel{
     height:50%;
+    
 }
 
+
+#firstpanel{
+    background-image: url('../../background.jpg');
+}
