@@ -16,25 +16,26 @@
 
 #image1{
     height: 100%;
-    width: 100%;
+    
 
     background-image: url(../../background.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+    
 
 
 }
 #image2{
     height: 100%;
-    width: 100%;
-    
+   
+
     background-image: url(../../background2.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center;
+
+    
 }
 #firstpanel{
     height: 100%;
