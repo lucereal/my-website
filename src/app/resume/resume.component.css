@@ -7,9 +7,31 @@
     height:50%;
     
 }
+#aboutpanel{
+    height:80%;
 
-
-#firstpanel{
-    background-image: url('../../background.jpg');
 }
+
+#image1{
+    height: 100%;
+  
+    background-image: url(../../background.jpg);
+    background-attachment: fixed;
+}
+#image2{
+    height: 100%;
+    background-image: url(../../background2.jpg);
+    background-attachment: fixed;
+}
+#firstpanel{
+    height: 100%;
+}
+#secondpanel{
+    height:100%;
+}
+#resumepanel{
+    height: 90%;
+    background-color: black;
+}
+
 
