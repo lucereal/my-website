@@ -1,3 +1,8 @@
 .row-fluid{
     height: 100%;
 }
+
+#columnpanel{
+    height:50%;
+}
+
