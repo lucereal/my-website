@@ -1,7 +1,3 @@
-.d-flex{
-    
-    
-    margin: 0;
-    padding: 0;
+.row-fluid{
+    height: 100%;
 }
-
