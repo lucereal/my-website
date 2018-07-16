@@ -13,26 +13,22 @@
 
 }
 
-#content{
-    border-style: double;
-    border-width: 20px;
-    border-color: black;
-}
 
 #image1{
     height: 100%;
+    width: 100%;
     
-
     background-image: url(../../background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: -10;
+
 
 }
 #image2{
     height: 100%;
+    width: 100%;
     background-image: url(../../background2.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -52,8 +48,8 @@
 }
 
 @media (min-width: 768px){
-    #image1{
-        background-position: center;
+    image1{
+        
         background-attachment: fixed;
     }
     image2{
