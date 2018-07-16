@@ -14,14 +14,16 @@
 
 #image1{
     height: 100%;
-  
+    
     background-image: url(../../background.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 #image2{
     height: 100%;
     background-image: url(../../background2.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 #firstpanel{
     height: 100%;
@@ -34,4 +36,9 @@
     background-color: black;
 }
 
+@media (min-width: 768px){
+    #image{
+        background-attachment: fixed;
+    }
+}
 
