@@ -17,7 +17,7 @@
 #image1{
     height: 100%;
     width: 100%;
-    
+
     background-image: url(../../background.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -29,6 +29,7 @@
 #image2{
     height: 100%;
     width: 100%;
+    
     background-image: url(../../background2.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -45,15 +46,5 @@
 #resumepanel{
     height: 90%;
     background-color: black;
-}
-
-@media (min-width: 768px){
-    image1{
-        
-        background-attachment: fixed;
-    }
-    image2{
-        background-attachment: fixed;
-    }
 }
 
