@@ -1,11 +1,11 @@
 
 .row-fluid{
-    height: 100%;
+    
     width: 100%;
 }
 
 #firstpanel{
-    height: 60%;
+    height: 80%;
     
 }
 
@@ -26,11 +26,36 @@
     height: 30%;
 }
 #thirdpanelcol1{
+    
     background-color: #cf6766;
 }
 #thirdpanelcol2{
     background-color: #8eaebd;
 }
-#thirdpanelcol1{
+#thirdpanelcol3{
     background-color: #031424;
+}
+
+#fourthpanel{
+    height: 50%;
+}
+
+#fifthpanel{
+    height: 100%;
+    
+}
+#fifthpanelcol{
+    height: 110%;
+    background-color: #f5f5f5;
+}
+
+#resume{
+    height:100%;
+    width: 100%;
+    
+    background-image: url("https://lh6.googleusercontent.com/QaVQ4TA1bMTJqOOy4aga5-ZWjexWY6FJEVm5NwQRDQ1l-hgmlVFs7NWs7e8=w2400");
+    background-size: contain;
+    background-position: center ;
+    background-repeat: no-repeat;
+
 }
