@@ -4,8 +4,8 @@
     width: 100%;
 }
 
-#firstpanel{
-    height: 80%;
+#firstpanelcol{
+    height: 800px;
     
 }
 
@@ -22,11 +22,12 @@
     background-color: #30415D;
 }
 
-#thirdpanel{
-    height: 40%;
-}
+
 #thirdpanelcol1{
     padding: 0;
+    height: 350px;
+    
+    min-width: 250px;
 }
 #thirdpanelcol1wrapper{
     height: 100%;
@@ -40,11 +41,15 @@
 #thirdpanelcol2{
     background-color: #8eaebd;
     padding: 0;
+    height: 350px;
+    min-width: 250px;
 }
 #thirdpanelcol3{
 
     background-color: #031424;
     padding: 0;
+    height: 350px;
+    min-width: 250px;
 }
 
 #thirdpanelcol3wrapper{
@@ -72,14 +77,13 @@
     color:gold;
 }
 
-#fourthpanel{
-    height: 100%;
-}
+
 fourthpanelcol{
-    height: auto;
+    height: 800px;
+    width: 100%;
 }
 #about{
-    width: 80%;
+    
     border-color: grey;
     border-width: .25em;
     border-style: double;
