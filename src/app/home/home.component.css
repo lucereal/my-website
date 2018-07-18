@@ -13,7 +13,7 @@
 
 }
 #secondpanel{
-    height:60%;
+    height:80%;
     background-color: rgb(90, 90, 90);
 
 }
@@ -26,7 +26,7 @@
 }
 
 #thirdpanel{
-    height: 30%;
+    height: 50%;
 }
 #thirdpanelcol1{
     padding: 0;
@@ -69,13 +69,26 @@
 }
 
 #projecticon{
-    color:yellow;
+    color:gold;
 }
 #resumeicon{
-    color:yellow;
+    color:gold;
 }
 
 #fourthpanel{
-    height: 20%;
+    height: 100%;
 }
-
+fourthpanelcol{
+    height: auto;
+}
+#about{
+    width: 80%;
+    border-color: grey;
+    border-width: .25em;
+    border-style: double;
+}
+#aboutheader{
+    color: gold;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+}
