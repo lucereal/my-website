@@ -3,12 +3,19 @@
     
     width: 100%;
 }
-p{
-    color: #333a56;
+
+#firstpanel{
+    position: relative;
+    z-index: 1000;
+}
+#aboutheader{
+    color: #feffff;
+    text-decoration-line: underline;
+    text-decoration-color: gold;
 }
 #firstpanelcol{
-    height: 800px;
-    background-color: #f7f5e6;
+    height: 900px;
+    background-color: #3aafa9;
 }
 #secondpanel{
     height:60%;
@@ -24,27 +31,44 @@ p{
 }
 
 #thirdpanel{
-    background-color: #f7f5e6;
+    background-color: #3aafa9;
     position: relative;
-    z-index: 100;
+    z-index: 1000;
+    
 }
 
 #foo{
     height: 100%;
     width: 100%;
 }
-#thirdpanelcol2{
-    background-color: #52658f;
+
+#thirdpanelcol1{
+    background-color: #def2f1;
     padding: 0;
     height: 200px;
-    min-width: 300px;
+    width:100%;
+   
+}
+#thirdpanelcol1wrapper{
+    height: 100%;
+    width: 100%;
+    
+    text-decoration: none;
+}
+
+#thirdpanelcol2{
+    background-color: #17252a;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    
 }
 #thirdpanelcol3{
 
-    background-color: #333a56;
+    background-color: #def2f1;
     padding: 0;
     height: 200px;
-    min-width: 300px;
+    width: 100%;
 }
 
 #thirdpanelcol3wrapper{
@@ -66,55 +90,95 @@ p{
 }
 
 #projecticon{
-    color:gold;
+    color:#feffff;
 }
 #resumeicon{
-    color:gold;
+    color:#17252a;
 }
 
 #fourthpanel{
     position: relative;
-    background-color: #f7f5e6;
-    z-index: 50;
+    background-color: #3aafa9;
+    
     
 }
 #fourthpanelcol{
-    height: 800px;
+    height: 500px;
     width: 100%;
 }
 #about{
     width: 900px;
  
 }
-#aboutheader{
-    color: gold;
-    text-decoration-line: underline;
-    text-decoration-color: #333a56;
-}
+
 
 #fifthpanel{
     position: relative;
-    background-color: #f7f5e6;
-    z-index: -50;
+    background-color: #17252a;
+    
 }
 #fifthpanelcol{
-    height: 800px;
+    height: 200px;
     width: 100%;
 }
 
 h1{
-   font-size: 4em; 
+   font-size: 8em; 
    
 }
-@media (max-width: 820px){
-    h1{
-        font-size:2.8em;
-    }
+h2{
+    font-size: 3em;
 }
-@media (max-width: 570px){
-    h1{
-        font-size:2.5em;
-    }
+h3{
+    font-size: 5em;
+}
+p{
+    color: #feffff;
+    font-size: 2.5em;
 }
 
-    
+#email{
+    color: #feffff;
+    font-size: 2.5em;
+}
+.navbar-brand{
+    text-decoration-line: line-through;
+    text-decoration-color: #feffff;
+    text-decoration-style: wavy;
+    color: #feffff;
+}
+
+
+@media (max-width: 820px){
+    h1{
+        font-size:5em;
+    }
+    h2{
+        font-size: 2.5em;
+    }
+    h3{
+        font-size: 4em;
+    }
+    #email{
+        font-size: 1.8em;
+    }
+    p{
+        font-size: 1.8em;
+    }
+
+}
+
+@media (max-width: 500px){
+    h1{
+        font-size:3em;
+    }
+    h2{
+        font-size: 1.8em;
+    }
+    h3{
+        font-size: 2.5em;
+    }
+    #email,p{
+        font-size: 1.5em;
+    }
+}  
