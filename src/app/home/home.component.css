@@ -83,13 +83,14 @@ fourthpanelcol{
     width: 100%;
 }
 #about{
-    
-    border-color: grey;
-    border-width: .25em;
-    border-style: double;
+    width: 900px;
+ 
 }
 #aboutheader{
     color: gold;
     text-decoration-line: underline;
     text-decoration-color: black;
 }
+
+
+    
