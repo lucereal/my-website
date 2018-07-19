@@ -14,7 +14,7 @@
     text-decoration-color: gold;
 }
 #firstpanelcol{
-    height: 900px;
+    height: 850px;
     background-color: #3aafa9;
 }
 #secondpanel{
@@ -166,6 +166,7 @@ p{
         font-size: 1.8em;
     }
 
+
 }
 
 @media (max-width: 500px){
@@ -181,4 +182,16 @@ p{
     #email,p{
         font-size: 1.5em;
     }
+
 }  
+
+@media (max-height:700px){
+    #firstpanelcol{
+        height: 600px;
+    }
+}
+@media (max-height:500px){
+    #firstpanelcol{
+        height: 400px;
+    }
+}
