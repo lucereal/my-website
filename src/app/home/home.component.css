@@ -92,5 +92,22 @@ fourthpanelcol{
     text-decoration-color: black;
 }
 
+h1{
+   font-size: 4em; 
+}
+@media (max-width: 820px){
+    h1{
+        font-size:2.8em;
+    }
+}
+@media (max-width: 570px){
+    h1{
+        font-size:1.8em;
+    }
+}
 
+fourthpanelcol{
+    height: 800px;
+    width: 100%;
+}
     
