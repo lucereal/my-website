@@ -140,7 +140,7 @@ p{
     color: #def2f1;
     font-size: 2.5em;
 }
-.navbar-brand{
+#navbartop{
     text-decoration-line: line-through;
     text-decoration-color: #17252a;
     text-decoration-style: wavy;
