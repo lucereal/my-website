@@ -14,8 +14,12 @@
     text-decoration-color: gold;
 }
 #firstpanelcol{
-    height: 850px;
+    height: 880px;
     background-color: #3aafa9;
+}
+#firstpanelcolwrapper{
+    height: 100%;
+    width: 100%;
 }
 #secondpanel{
     height:60%;
@@ -103,7 +107,7 @@
     
 }
 #fourthpanelcol{
-    height: 500px;
+    height: 550px;
     width: 100%;
 }
 #about{
@@ -118,10 +122,12 @@
     
 }
 #fifthpanelcol{
-    height: 200px;
+    height: 250px;
     width: 100%;
 }
-
+#aboutinfo{
+    color: #17252a;
+}
 h1{
    font-size: 8em; 
    
@@ -130,7 +136,7 @@ h2{
     font-size: 3em;
 }
 h3{
-    font-size: 5em;
+    font-size: 4em;
 }
 p{
     color: #feffff;
@@ -157,7 +163,7 @@ p{
         font-size: 2.5em;
     }
     h3{
-        font-size: 4em;
+        font-size: 3em;
     }
     #email{
         font-size: 1.8em;

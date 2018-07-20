@@ -1,3 +1,10 @@
+a{
+    text-decoration-line: line-through;
+    text-decoration-color: #feffff;
+    text-decoration-style: wavy;
+    color: #feffff;
+    
+}
 .row-fluid{
     height: 100%;
     
