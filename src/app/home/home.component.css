@@ -4,22 +4,39 @@
     width: 100%;
 }
 
+
+
 #firstpanel{
     position: relative;
     z-index: 1000;
 }
+
 #aboutheader{
+    color: #def2f1;
+    text-decoration-line: underline;
+    text-decoration-color: gold;
+}
+#firstpanelheader{
     color: #17252a;
     text-decoration-line: underline;
     text-decoration-color: gold;
 }
+#firstpanelinfo{
+    color: #17252a;
+  
+}
 #firstpanelcol{
     height: 880px;
     background-color: #def2f1;
+    
 }
 #firstpanelcolwrapper{
-    height: 100%;
-    width: 100%;
+ 
+    border-width: .25em;
+    border-style: solid;
+    border-color: #17252a;
+    border-radius: 25px
+
 }
 
 
@@ -36,7 +53,7 @@
 }
 
 #thirdpanelcol1{
-    background-color: #3aafa9;
+    background-color: #17252a;
     padding: 0;
     height: 200px;
     width:100%;
@@ -50,15 +67,26 @@
 }
 
 #thirdpanelcol2{
-    background-color: #17252a;
+    background-color: #def2f1;
     padding: 0;
     height: 200px;
     width: 100%;
     
 }
+#thirdpanelcol4{
+    background-color: #def2f1;
+    padding: 0;
+    height: 200px;
+    width: 100%;
+    
+}
+#thirdpanelcol4wrapper{
+    height: 100%;
+    width: 100%;
+}
 #thirdpanelcol3{
 
-    background-color: #3aafa9;
+    background-color: #17252a;
     padding: 0;
     height: 200px;
     width: 100%;
@@ -86,18 +114,36 @@
     color:#def2f1;
 }
 #resumeicon{
-    color:#def2f1;
+    color:#17252a;
 }
 
 #fourthpanel{
     position: relative;
-    background-color: #def2f1;
+    background-color: #17252a;
     
     
 }
 #fourthpanelcol{
     height: 550px;
     width: 100%;
+}
+#sixthpanel{
+    position: relative;
+    background-color: #def2f1;
+    
+    
+}
+#sixthpanelcol{
+    height: 550px;
+    width: 100%;
+}
+#experienceheader{
+    color: #17252a;
+    text-decoration-line: underline;
+    text-decoration-color: gold;
+}
+#experienceinfo{
+    color: #17252a;
 }
 #about{
     width: 900px;
@@ -119,7 +165,7 @@
     width: 100%;
 }
 #aboutinfo{
-    color: #17252a;
+    color: #def2f1;
 }
 h1{
    font-size: 5em; 
