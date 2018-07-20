@@ -30,14 +30,7 @@
     background-color: #def2f1;
     
 }
-#firstpanelcolwrapper{
- 
-    border-width: .25em;
-    border-style: solid;
-    border-color: #17252a;
-    border-radius: 25px
 
-}
 
 
 #thirdpanel{
@@ -134,7 +127,7 @@
     
 }
 #sixthpanelcol{
-    height: 550px;
+    height: 450px;
     width: 100%;
 }
 #experienceheader{
