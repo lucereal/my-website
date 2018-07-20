@@ -150,6 +150,9 @@ p{
     text-decoration-line: line-through;
     text-decoration-color: #def2f1;
     text-decoration-style: wavy;
+    -webkit-text-decoration-line: line-through;
+    -webkit-text-decoration-color: #def2f1;
+    -webkit-text-decoration-style: wavy;
     color: #def2f1;
 }
 
