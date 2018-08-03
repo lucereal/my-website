@@ -11,11 +11,8 @@
     z-index: 1000;
 }
 
-#aboutheader{
-    color: #17252a;
-    text-decoration-line: underline;
-    text-decoration-color: gold;
-}
+
+
 #firstpanelheader{
     color: #17252a;
     text-decoration-line: underline;
@@ -23,13 +20,11 @@
 }
 #firstpanelinfo{
     color: #17252a;
-  
+    width:100%;
 }
 #firstpanelcol{
     height: 880px;
-    
-    
-    
+ 
 }
 
 
@@ -46,62 +41,32 @@
     width: 100%;
 }
 
-#thirdpanelcol1{
-    background-color: #17252a;
-    padding: 0;
-    height: 200px;
-    width:100%;
-   
+#navbartop{
+    letter-spacing: 2px;
+    text-decoration-line: line-through;
+    text-decoration-color: #17252a;
+    text-decoration-style: wavy;
+    color: #17252a;
 }
-#thirdpanelcol1wrapper{
-    height: 100%;
-    width: 100%;
-    
-    text-decoration: none;
-}
-
-#thirdpanelcol2{
-    background-color: #def2f1;
-    padding: 0;
-    height: 200px;
-    width: 100%;
-    
-}
-#thirdpanelcol4{
-    background-color: #def2f1;
-    padding: 0;
-    height: 200px;
-    width: 100%;
-    
-}
-#thirdpanelcol4wrapper{
-    height: 100%;
-    width: 100%;
-}
-#thirdpanelcol3{
-
-    background-color: #17252a;
-    padding: 0;
-    height: 200px;
-    width: 100%;
+#navbartop:hover{
+    letter-spacing: 4px;
+    text-decoration-line: line-through;
+    text-decoration-color: gold;
+    text-decoration-style: wavy;
+    color: #17252a;
 }
 
-#thirdpanelcol3wrapper{
-    height: 100%;
-    width: 100%;
-    
-    text-decoration: none;
+#navlink{
+    color:#17252a;
+    font-size: 2em;
+    letter-spacing: 2px;
 }
-
-#thirdpanelcol2wrapper{
-    height: 100%;
-    width: 100%;
+#navlink:hover{
+    color: gold;
+    letter-spacing: 4px;
 }
-#thirdpanelcol2link{
-    height: 100%;
-    width: 100%;
-    
-    text-decoration: none;
+ul li{
+    display: inline;
 }
 
 #projecticon{
@@ -120,30 +85,50 @@
 #fourthpanelcol{
     height: 550px;
     width: 70%;
-    background-image: linear-gradient( 135deg, #81FBB8 10%, #28C76F 100%);
+    background-color: #17252a;
+-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+ -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+ box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
+#about{
+    width: 900px;
+ 
+}
+#aboutheader{
+    color: gold;
+    text-decoration-line: underline;
+    text-decoration-color: gold;
+}
+#aboutinfo{
+    color: #17252a;
+}
+
+
 #sixthpanel{
     position: relative;
-    background-color: #def2f1;
+   
     
     
 }
 #sixthpanelcol{
     height: 450px;
     width: 100%;
+    background-color: #17252a;
+
+-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+-moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
 #experienceheader{
-    color: #17252a;
+    color: gold;
     text-decoration-line: underline;
-    text-decoration-color: gold;
+    text-decoration-color: #17252a;
 }
 #experienceinfo{
-    color: #17252a;
+    color: white;
 }
-#about{
-    width: 900px;
- 
-}
+
+
 #contactheader{
     color: #17252a;
     text-decoration-line: underline;
@@ -152,18 +137,22 @@
 
 #fifthpanel{
     position: relative;
-    background-color: #def2f1;
+    
     
 }
 #fifthpanelcol{
     height: 250px;
     width: 100%;
+   
+
+-webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+ -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+ box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
-#aboutinfo{
-    color: #17252a;
-}
+
 h1{
-   font-size: 5em; 
+   font-size: 5.5em; 
+   
    
 }
 h2{
@@ -173,34 +162,41 @@ h3{
     font-size: 4em;
 }
 p{
-    color: #def2f1;
-    font-size: 2.5em;
+    font-size: 1.5em;
 }
 
 #email{
     color: #17252a;
-    font-size: 2.5em;
+    font-size: 1em;
 }
-#navbartop{
-    text-decoration-line: line-through;
-    text-decoration-color: #17252a;
-    text-decoration-style: wavy;
+
+.material-icons{
     color: #17252a;
 }
-#navbarbottom{
-    text-decoration-line: line-through;
-    text-decoration-color: #def2f1;
-    text-decoration-style: wavy;
-    -webkit-text-decoration-line: line-through;
-    -webkit-text-decoration-color: #def2f1;
-    -webkit-text-decoration-style: wavy;
-    color: #def2f1;
+.material-icons:hover{
+    color: gold;
 }
+
+
+#icon{
+    color:#17252a;
+    font-size: 3em;
+    letter-spacing: 5px;
+}
+#icon:hover{
+    color:gold;
+   
+}
+#contacticons{
+    width:50%;
+}
+
 
 
 @media (max-width: 820px){
     h1{
         font-size:3.8em;
+        
     }
     h2{
         font-size: 2.5em;
@@ -212,7 +208,7 @@ p{
         font-size: 1.8em;
     }
     p{
-        font-size: 1.8em;
+        font-size: 1em;
     }
 
 
