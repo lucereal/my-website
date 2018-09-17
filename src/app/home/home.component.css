@@ -23,18 +23,10 @@
     width:100%;
 }
 #firstpanelcol{
-    height: 880px;
+    height: auto;
  
 }
 
-
-
-#thirdpanel{
-    background-color: #3aafa9;
-    position: relative;
-    z-index: 1000;
-    
-}
 
 #foo{
     height: 100%;
@@ -55,15 +47,18 @@
     text-decoration-style: wavy;
     color: #17252a;
 }
-
+#linktab{
+    color:#17252a;
+    font-size: 1.5em;
+}
 #navlink{
     color:#17252a;
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 2px;
 }
 #navlink:hover{
     color: gold;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
 }
 ul li{
     display: inline;
@@ -82,14 +77,6 @@ ul li{
     
     
 }
-#fourthpanelcol{
-    height: 550px;
-    width: 70%;
-    background-color: #17252a;
--webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
- -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
- box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-}
 #about{
     width: 900px;
  
@@ -103,55 +90,8 @@ ul li{
     color: #17252a;
 }
 
-
-#sixthpanel{
-    position: relative;
-   
-    
-    
-}
-#sixthpanelcol{
-    height: 450px;
-    width: 100%;
-    background-color: #17252a;
-
--webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
--moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
-box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-}
-#experienceheader{
-    color: gold;
-    text-decoration-line: underline;
-    text-decoration-color: #17252a;
-}
-#experienceinfo{
-    color: white;
-}
-
-
-#contactheader{
-    color: #17252a;
-    text-decoration-line: underline;
-    text-decoration-color: gold;
-}
-
-#fifthpanel{
-    position: relative;
-    
-    
-}
-#fifthpanelcol{
-    height: 250px;
-    width: 100%;
-   
-
--webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
- -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
- box-shadow:  0 0 10px  rgba(0,0,0,0.6);
-}
-
 h1{
-   font-size: 5.5em; 
+   font-size: 4em; 
    
    
 }
@@ -162,7 +102,7 @@ h3{
     font-size: 4em;
 }
 p{
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 #email{
@@ -210,7 +150,9 @@ p{
     p{
         font-size: 1em;
     }
-
+    #navlink{
+        font-size: 1.25em;
+    }
 
 }
 
@@ -225,6 +167,9 @@ p{
         font-size: 2.5em;
     }
     #email,p{
+        font-size: 1em;
+    }
+    #navlink{
         font-size: 1em;
     }
 
