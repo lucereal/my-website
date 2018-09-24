@@ -1,78 +1,195 @@
 <!DOCTYPE html>
 
-<div class="d-inline-flex row-fluid justify-content-center align-items-center " id="firstpanel">
+<div class="row" id="row1">
 
-    <div class="d-flex col flex-column pb-5 px-5 align-items-center justify-content-center" id="firstpanelcol">
 
-        <div id="firstpanelcolwrapper" class="d-inline-flex flex-wrap p-4 flex-column justify-content-center align-items-center">
+    <div class="col" style="text-align: center;">
+        <h1>David Lucero</h1>
 
-            <h1 id="firstpanelheader" class="animated bounceIn ">Hello, I'm David Lucero.</h1>
-
-            <div class="d-inline-flex justify-content-center" id="firstpanelinfo">
-                <ul>
-                    <li>
-                            <p id="linktab" class="d-inline"> - </p> 
-                        <a id="navlink" href="https://drive.google.com/file/d/1TP8Eua_zxVTiacGV0qzfeLkIDHGrIOD_/view?usp=sharing"> resume
-                        </a>
-                        <p id="linktab" class="d-inline"> - </p> 
-                    </li>
-                    <li>
-                        <a id="navlink" href="projects">projects
-                        </a>
-                        <p id="linktab" class="d-inline"> - </p> 
-                    </li>
-
-                    <li>
-                        <a id="navlink" href="#">i like
-
-                        </a>
-                        <p id="linktab" class="d-inline"> - </p> 
-                    </li>
-                </ul>
+        <div class="row " style="margin:5px; ">
+            <div class="col">
+                <a id="navlink" href="https://drive.google.com/file/d/1TP8Eua_zxVTiacGV0qzfeLkIDHGrIOD_/view?usp=sharing">
+                    resume
+                </a>
             </div>
-            <br>
+        </div>
+        <div class="row" style="margin:5px;">
+            <div class="col">
+                <a id="navlink" href="#">cool stuff
 
-            <div class="d-flex">
-                <p id="aboutinfo">I am a senior computer scientist at Texas Tech University and I expect to graduate May 2019. I was born in
-                    Ruidoso, New Mexico but have spent most of my life in Texas. I am interested in almost anything related
-                    to computer science including: programming, algorithms, data science, and many more. I also enjoy reading
-                    and and learning new things ranging from philosophy to investing. </p>
+                </a>
             </div>
         </div>
 
-        <br>
-        <br>
 
-        <div id="contacticons" class="d-flex justify-content-around">
-            <a href="https://github.com/theSaltyConditional">
-                <i class="fab fa-github" id="icon"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/david-lucero-710ab3154/">
-                <i class="fab fa-linkedin" id="icon"></i>
-            </a>
-
-            <i class="fas fa-envelope" id="icon"></i>
-        </div>
     </div>
+
 
 
 
 </div>
 
+<div class="row" id="row2">
+
+    <div class="col" style="text-align: center;">
+        <h2 id="rowtitle">About</h2>
+        <hr>
+        <div class="row " style="margin:5px; ">
+            <div class="col">
+                <p>I am a senior at Texas Tech University and I am majoring
+                    in computer science.
+                    I am employed as a software developer working on the next big thing.
+                </p>
+                <p>
+                    On the side, i'm making the next facebook or what ever
+                    media people are into today.
+                    Also, I am into Web Dev, cloud computing, and pretty much anything else related to
+                    programming as long as I can build something wonderful.
+                </p>
+                <p>
+                    Reading, podcasts, and fitness keeps me entertained when I am bored.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="row" id="row3">
+    <div class="col" style="text-align: center;">
+        <h2>Projects</h2>
+        <hr>
+        <div class="row justify-content-center" style="margin-top:3em;">
+            <div class="col-sm-4 " style="text-align: center;">
+                <div id="card">
+
+                    <div id="picture1">
+                        <a id="repobutton" style="float: left;" class="btn btn-sm" href="https://github.com/RehanProgrammer/WhatsHappNin"
+                            role="button">
+                            <p id="pbutton">Repo</p>
+                        </a> </div>
+                    <div id="cardheader">
+                        <p id="p2">WhatsHappNin<br>A location based social media application</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4 " style="text-align: center;">
+                <div id="card">
+                    <div id="picture">
+                        <a id="repobutton" style="float: left;" class="btn btn-sm" href="https://github.com/theSaltyConditional/LuceroServices"
+                            role="button">
+                            <p id="pbutton">Repo</p>
+                        </a>
+
+                    </div>
+                    <div id="cardheader">
+                        <p id="p2">Resume App<br>
+                            Upload and compare your Resume</p>
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
 
 
 
+    </div>
 
 
-<script type="text/javascript">
-    var prevScrollpos = window.pageYOffset;
-    window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("fool").style.top = "0";
-        } else {
-            document.getElementById("fool").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-    }
-</script>
+</div>
+
+<div class="row" id="rowbottom">
+        <div class="col" style="text-align: center;">
+            <div class="row  justify-content-center"  style="margin-top:3em;">
+
+                <div class="col-4">
+                        <a style="float:right;" href="https://github.com/theSaltyConditional">
+                            <i class="fab fa-github" id="icon"></i>
+                        </a>
+                </div>
+                <div class="col-4">
+                        <a href="https://www.linkedin.com/in/david-lucero-710ab3154/">
+                            <i class="fab fa-linkedin" id="icon"></i>
+                        </a>
+                </div>
+                <div class="col-4">
+                        <a style="float: left;" href="https://github.com/theSaltyConditional">
+                           <i class="fa fa-user-circle" id="icon"></i>
+                        </a>
+                </div>
+            </div>
+        
+        </div>
+
+</div>
+<!--
+
+
+<div class="col-lg-12" id="col-1A">
+
+        <div class="d-flex flex-column justify-content-around" id="maincontent">
+
+            <div class="d-flex flex-column justify-content-center">
+
+
+                <div class="d-flex justify-content-center">
+                    <div>
+                        <h1 class="animated bounceIn ">David Lucero</h1>
+                    </div>
+
+                </div>
+                <div>
+                    <p>I am a senior computer scientist at Texas Tech University and I expect to graduate
+                        May 2019. </p>
+                </div>
+                <div class="d-flex flex-column align-items-center justify-content-around">
+                    <div>
+                        <a id="navlink" href="https://drive.google.com/file/d/1TP8Eua_zxVTiacGV0qzfeLkIDHGrIOD_/view?usp=sharing">
+                            resume
+                        </a>
+                    </div>
+
+                    <div>
+                        <a id="navlink" href="projects">projects
+                        </a>
+                    </div>
+                    <div>
+                        <a id="navlink" href="#">recommendations
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center ">
+                <div class="d-flex justify-content-end col-4 ">
+                    <a href="https://github.com/theSaltyConditional">
+                        <i class="fab fa-github" id="icon"></i>
+                    </a>
+                </div>
+
+                <div class="d-flex justify-content-center col-4 ">
+                    <a href="https://www.linkedin.com/in/david-lucero-710ab3154/">
+                        <i class="fab fa-linkedin" id="icon"></i>
+                    </a>
+                </div>
+                <div class="d-flex justify-content-start col-4 ">
+                    <i class="fas fa-envelope" id="icon"></i>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+    -->
