@@ -8,9 +8,8 @@ hr{
     height: 1em;
 }
 #rowtitle{
-    color:gold;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
+    color:#17252a;
+    
 }
 #row1{
     height: 20em;
@@ -25,8 +24,16 @@ hr{
 }
 #row3{
     height: 30em;
-    padding:3em;
-    margin:4em;
+    padding:1em;
+    margin:1em;
+    margin-bottom: 5em;
+   
+    background-color:whitesmoke;   
+}
+#row4{
+    height: 30em;
+    padding:1em;
+    margin:1em;
    
     background-color:whitesmoke;   
 }
@@ -34,9 +41,10 @@ hr{
     height: 10em;
     padding:3em;
     margin:4em;
-   
+    margin-bottom: 0;
     background-color:whitesmoke;   
 }
+
 #card{
     background-color:#17252a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -136,6 +144,7 @@ p{
     color:#17252a;
     font-size: 1.2em;
     letter-spacing: 1px;
+    font-family: 'Aldrich', sans-serif;
 }
 
 #navlink:hover{
@@ -175,17 +184,21 @@ ul li{
 
 h1{
    font-size: 3em; 
-   
+   color:#17252a;
+   font-family: 'Monoton', cursive;
    
 }
 h2{
     font-size: 2em;
+    color:#17252a;
+    font-family: 'Audiowide', cursive;
 }
 h3{
     font-size: 4em;
 }
 #p2{
     font-size:1em;
+    
     color:white;
 }
 
@@ -241,6 +254,18 @@ h3{
         background-color:yellow;
         margin:3em;
     }
+    #row2{
+        height:auto;
+        margin:1.5em;
+    }
+    #row3{
+        height:auto;
+        margin:0;
+    }
+    #row4{
+        height:auto;
+        margin:0;
+    }
 
 }
 
@@ -273,11 +298,16 @@ h3{
     #row3{
 
        
-        margin: 1.5em;
+        margin: 0em;
         height:auto;
+    }
+    #row4{
+        height:auto;
+        margin:0;
     }
     #rowbottom{
         margin:1.5em;
+        padding:1em;
         height:auto;
     }
 
