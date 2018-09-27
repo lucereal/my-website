@@ -330,12 +330,16 @@ h3{
     }
     #row2{
         height:auto;
-        margin-top:5em;
+        margin-top:8em;
         margin:0;
+        margin-bottom: 3em;
+        
       
     }
     #row3{
        padding: 1em;
+      
+       margin-bottom: 5em;
         margin: 0em;
         height:auto;
     }
