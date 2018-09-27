@@ -78,7 +78,9 @@ hr{
     margin-top:1em;
     background-color:whitesmoke;   
 }
-
+#emailrow{
+    height:5em;
+}
 #card{
     background-color:#17252a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -352,24 +354,9 @@ h3{
         padding:1em;
         height:auto;
     }
+    #emailrow{
+        margin-bottom:5em;
+    }
 
 }  
 
-
-@media (max-height:700px){
-    #firstpanelcol{
-        height: 600px;
-    }
-  
-}
-@media (max-height:500px){
-    #firstpanelcol{
-        height: 400px;
-    }
-}
-
-@media (max-height:500px){
-    #firstpanelcol{
-        height: 400px;
-    }
-}
