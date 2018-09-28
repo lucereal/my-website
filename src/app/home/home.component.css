@@ -8,17 +8,31 @@
 #slant{
     
     position: relative;
-    background: #17252a;
+
+    
+
+
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #17252a, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #17252a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ 
+
     width:100%;
-    height: auto;
+    height: 30em;
     z-index: 1;
     margin: 0;
     margin-bottom:15em;
     padding-top:10em;
+    
+
    
 }
 #slant:after{
    
+    -webkit-box-shadow: 0px 6px 84px 12px rgba(0,0,0,0.78);
+    -moz-box-shadow: 0px 6px 84px 12px rgba(0,0,0,0.78);
+    box-shadow: 0px 6px 84px 12px rgba(0,0,0,0.78);
     
     position: absolute;
     width: 100%;
@@ -27,6 +41,7 @@
     background: inherit;
 
     margin-bottom:15em;
+
 
     z-index: -1;
     top:0;
@@ -45,12 +60,23 @@ hr{
     height: 1em;
 }
 #rowtitle{
-    color:#17252a;
+    
+    font-size:2.5em;  
+    margin-bottom: 2em; 
+    margin-top: 2em;
+    color:#f0c800; 
+    text-decoration:underline; 
+    text-decoration-color: #17252a;
+    
+    text-shadow: 3px 3px 10px rgba(150, 150, 150, 0.93);
+
+    
     
 }
 #row2{
     height: 25em;
 
+ 
     margin:3em;
 
 }
@@ -58,25 +84,30 @@ hr{
     height: 30em;
     padding:2em;
  
-    margin-bottom: 5em;
-    margin-top: 5em;
-    background-color:whitesmoke;   
+    margin-bottom: 15em;
+
+    
 }
 #row4{
+    width:100%;
     height: 30em;
-    padding:1em;
-    margin:1em;
-   
-    background-color:whitesmoke;   
+    padding:2em;
+
+    margin-bottom:15em;
+ 
+       
 }
 #rowbottom{
-    height: 10em;
-    padding:3em;
-    padding-top:1em;
-    margin:4em;
-    margin-bottom: 0;
-    margin-top:1em;
-    background-color:whitesmoke;   
+    width:100%;
+    height:20em;
+    margin:0;
+    margin-top: 18em;
+  
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #17252a, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #17252a, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+     
 }
 #emailrow{
     height:5em;
@@ -129,53 +160,42 @@ hr{
 #navlink{
 
     color:#17252a;
-    font-size: 1.5em;
-    letter-spacing: 2px;
+    font-size: 1.2em;
+    letter-spacing: 1px;
 }
+#navlink:hover{
+    color:#f0c800; 
+    letter-spacing: 7px;
+}
+
+#navlink2{
+    color:whitesmoke;
+    font-size: 2.2em;   
+}
+#navlink2:hover{
+    color:#f0c800; 
+    
+}
+
+
+
 p{
     color:#17252a;
     font-size: 1.2em;
     letter-spacing: 1px;
     font-family: 'Aldrich', sans-serif;
 }
-
-#navlink:hover{
+#p3{
+    font-size:1.3em;
     color: gold;
-    letter-spacing: 7px;
 }
-
-ul li{
-    display: inline;
-}
-
-#projecticon{
-    color:#def2f1;
-}
-#resumeicon{
-    color:#17252a;
-}
-
-#fourthpanel{
-    position: relative;
+#p2{
+    font-size:1em;
     
-    
-    
+    color:white;
 }
-#about{
-    width: 900px;
- 
-}
-#aboutheader{
-    color: gold;
-    text-decoration-line: underline;
-    text-decoration-color: gold;
-}
-#aboutinfo{
-    color: #17252a;
-}
-
 h1{
-   font-size: 3em; 
+   font-size: 4em; 
    color:#17252a;
    font-family: 'Monoton', cursive;
    
@@ -188,16 +208,9 @@ h2{
 h3{
     font-size: 4em;
 }
-#p2{
-    font-size:1em;
-    
-    color:white;
-}
 
-#email{
-    color: #17252a;
-    font-size: 1em;
-}
+
+
 
 .material-icons{
     color: #17252a;
@@ -208,9 +221,9 @@ h3{
 
 
 #icon{
-    color:#17252a;
-    font-size: 2em;
-    letter-spacing: 5px;
+    color:whitesmoke;
+    font-size: 3em;
+  
 }
 #icon:hover{
     color:gold;
@@ -263,6 +276,7 @@ h3{
         height:10em;
     }
 }
+
 @media (max-width: 820px){
     h1{
         font-size:2.5em;
@@ -283,6 +297,13 @@ h3{
     #navlink{
         font-size: 1.25em;
     }
+    #slant{
+        
+    
+        height: 30em;
+        margin-bottom: 10em;
+        
+    }
     #row1{
 
         margin:3em;
@@ -291,6 +312,7 @@ h3{
        
         height:fit-content;
         margin:1.5em;
+        margin-top:1;
     }
     #row3{
         height:auto;
@@ -321,9 +343,11 @@ h3{
     }
 
     #slant{
+
         margin-bottom:7em;
         padding-top:5em;
         height:65%;
+        border:solid red;
     }
     #row1{
         
