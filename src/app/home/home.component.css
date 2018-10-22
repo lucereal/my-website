@@ -148,7 +148,7 @@ hr{
     margin-top:0;
 }
 #cardheader{
-    height:8em;
+    height:7em;
     padding:.5em;
 }
 #repobutton{
@@ -164,7 +164,7 @@ hr{
     background-color:#233941;
 }
 #picture1{
-    height: 15em;
+    height: 13em;
     
     position: relative;
     background-image: url("../projects/whatshappninmockup.png");
@@ -174,13 +174,21 @@ hr{
 
 }
 #picture{
-    height: 15em;
+    height: 13em;
     position: relative;
     background-image: url("../projects/exresume2.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     
+}
+#picture2{
+    height: 13em;
+    position: relative;
+    background-image: url("../projects/android.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 #linktab{
     color:#17252a;
